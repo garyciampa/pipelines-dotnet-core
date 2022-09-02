@@ -20,7 +20,7 @@ steps:
   displayName: 'Run a multi-line script'
 
 # Add build step 
-  steps:
+steps:
 - task: DotNetCoreCLI@2
   displayName: Build
   inputs:
